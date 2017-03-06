@@ -14,16 +14,16 @@ public class CandyTest {
 
     @Test
     public void candyNameTest() {
-        Assertions.assertThat(candy.getName()).equals("gummyBears"));
+        Assertions.assertThat(candy.getName()).equals("gummyBears");
     }
 
     @Test
     public void candyPriceTest() {
-        Assertions.assertThat(candy.getPrice()).isEqualTo(5));
+        Assertions.assertThat(candy.getPrice()).isEqualTo(5);
     }
 
     @Test
     public void candyWeightTest() {
-        Assertions.assertThat(candy.getWeight()).isEqualTo(1.20));
+        Assertions.assertThat(candy.getWeight()).isEqualTo(1.20);
     }
 }
