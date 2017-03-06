@@ -6,15 +6,16 @@ public class CandyTest {
 
     private Candy candy;
 
+
     @Before
     public void setupTest() {
-        Candy candy = new Candy("gummyBears", 5, 1.20);
+         candy = new Candy("gummyBears", 5, 1.20);
     }
 
 
     @Test
     public void candyNameTest() {
-        Assertions.assertThat(candy.getName()).equals("gummyBears");
+        Assertions.assertThat(candy.getName().equals("gummyBears"));
     }
 
     @Test

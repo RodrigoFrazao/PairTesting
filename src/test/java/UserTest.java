@@ -6,5 +6,8 @@ public class UserTest {
     @Test
     public void userAsAPieceOfCandy(){
 
+        User dieter = new User("Dieter",new Candy("gummyBears", 5, 1.20));
+        Assertions.assertThat(dieter.getName().equals("Dieter"));
+       
     }
 }
