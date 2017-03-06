@@ -1,0 +1,12 @@
+### OS Junk ###
+.DS_Store
+
+### IntelliJ ###
+.idea
+out
+*.iml
+.idea/workspace.xml
+
+### Gradle ###
+.gradle
+build
