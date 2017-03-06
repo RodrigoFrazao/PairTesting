@@ -14,7 +14,7 @@ public class CandyTest {
 
     @Test
     public void candyNameTest() {
-        Assertions.assertThat(candy.getName()).equals("gummyBears");
+        Assertions.assertThat(candy.getName().equals("gummyBears"));
     }
 
     @Test
